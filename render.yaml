@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: dhan-universal-market-gateway-v6
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    autoDeploy: true
